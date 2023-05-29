@@ -10,9 +10,9 @@ import UIKit
 /// Controller to show and search for Locations
 final class RMLocationViewController: UIViewController, RMLocationViewViewModelDelegate, RMLocationViewDelegate {
 
-    private let primaryView = RMLocationView()
+    var primaryView = RMLocationView()
 
-    private let viewModel = RMLocationViewViewModel()
+    var viewModel = RMLocationViewViewModel()
 
     // MARK: - Lifecycle
 
@@ -47,7 +47,7 @@ final class RMLocationViewController: UIViewController, RMLocationViewViewModelD
         ])
     }
 
-    @objc private func didTapSearch() {
+    @objc func didTapSearch() {
         let vc = RMSearchViewController(config: .init(type: .location))
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)

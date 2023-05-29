@@ -13,7 +13,7 @@ import UIKit
 /// Controller to show various app options and settings
 final class RMSettingsViewController: UIViewController {
 
-    private var settingsSwiftUIController: UIHostingController<RMSettingsView>?
+    var settingsSwiftUIController: UIHostingController<RMSettingsView>?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,7 +50,7 @@ final class RMSettingsViewController: UIViewController {
         self.settingsSwiftUIController = settingsSwiftUIController
     }
 
-    private func handleTap(option: RMSettingsOption) {
+    func handleTap(option: RMSettingsOption) {
         guard Thread.current.isMainThread else {
             return
         }
