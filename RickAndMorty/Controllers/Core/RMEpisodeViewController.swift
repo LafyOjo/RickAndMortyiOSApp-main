@@ -10,7 +10,7 @@ import UIKit
 /// Controller to show and search for Episodes
 final class RMEpisodeViewController: UIViewController, RMEpisodeListViewDelegate {
 
-    private let episodeListView = RMEpisodeListView()
+    let episodeListView = RMEpisodeListView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,11 +20,11 @@ final class RMEpisodeViewController: UIViewController, RMEpisodeListViewDelegate
         addSearchButton()
     }
 
-    private func addSearchButton() {
+    func addSearchButton() {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(didTapSearch))
     }
 
-    @objc private func didTapSearch() {
+    @objc func didTapSearch() {
         let vc = RMSearchViewController(config: .init(type: .episode))
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)

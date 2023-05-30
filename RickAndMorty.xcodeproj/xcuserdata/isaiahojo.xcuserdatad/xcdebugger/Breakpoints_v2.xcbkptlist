@@ -49,6 +49,36 @@
                   endingLineNumber = "69"
                   offsetFromSymbolStart = "415">
                </Location>
+               <Location
+                  uuid = "B35A60DA-E3EC-462F-A58C-C8D2B32E70FB - e043d4a646161f70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickAndMorty.RMLocationViewViewModel.fetchAdditionalLocations() -&gt; ()"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaiahojo/Desktop/RickAndMortyiOSApp-main/RickAndMorty/ViewModels/Locations/RMLocationViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "734">
+               </Location>
+               <Location
+                  uuid = "B35A60DA-E3EC-462F-A58C-C8D2B32E70FB - be04bcaca32154f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;RickAndMorty.RMGetAllLocationsResponse, Swift.Error&gt;) -&gt; () in RickAndMorty.RMLocationViewViewModel.fetchAdditionalLocations() -&gt; ()"
+                  moduleName = "RickAndMorty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaiahojo/Desktop/RickAndMortyiOSApp-main/RickAndMorty/ViewModels/Locations/RMLocationViewViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "415">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

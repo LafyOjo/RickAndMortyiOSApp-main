@@ -86,6 +86,7 @@
 		8555D2582A24E69B00FBAF38 /* SettingsRickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8555D2572A24E69B00FBAF38 /* SettingsRickAndMortyTests.swift */; };
 		8555D25F2A24ECF400FBAF38 /* FavoritesRickAndMortyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8555D25E2A24ECF400FBAF38 /* FavoritesRickAndMortyTest.swift */; };
 		8555D2612A24EE3300FBAF38 /* LocationsRickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8555D2602A24EE3300FBAF38 /* LocationsRickAndMortyTests.swift */; };
+		8555D2632A25EDCE00FBAF38 /* EpisodesRickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8555D2622A25EDCE00FBAF38 /* EpisodesRickAndMortyTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +183,7 @@
 		8555D2572A24E69B00FBAF38 /* SettingsRickAndMortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRickAndMortyTests.swift; sourceTree = "<group>"; };
 		8555D25E2A24ECF400FBAF38 /* FavoritesRickAndMortyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRickAndMortyTest.swift; sourceTree = "<group>"; };
 		8555D2602A24EE3300FBAF38 /* LocationsRickAndMortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsRickAndMortyTests.swift; sourceTree = "<group>"; };
+		8555D2622A25EDCE00FBAF38 /* EpisodesRickAndMortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesRickAndMortyTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -376,8 +378,8 @@
 		83D9ACF32954BD61001E1C72 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
+				8555D2642A25F72500FBAF38 /* Protocol */,
 				8555D2392A211EC500FBAF38 /* CoreData */,
-				8555D2322A20F06100FBAF38 /* Protocol */,
 				83D9AD0E2954BE8B001E1C72 /* Resources */,
 				83D9AD0D2954BE85001E1C72 /* Managers */,
 				83D9AD0C2954BE78001E1C72 /* APIClient */,
@@ -504,13 +506,6 @@
 			path = EpisodeDetail;
 			sourceTree = "<group>";
 		};
-		8555D2322A20F06100FBAF38 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
 		8555D2392A211EC500FBAF38 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -527,8 +522,16 @@
 				8555D2572A24E69B00FBAF38 /* SettingsRickAndMortyTests.swift */,
 				8555D25E2A24ECF400FBAF38 /* FavoritesRickAndMortyTest.swift */,
 				8555D2602A24EE3300FBAF38 /* LocationsRickAndMortyTests.swift */,
+				8555D2622A25EDCE00FBAF38 /* EpisodesRickAndMortyTests.swift */,
 			);
 			path = RickAndMortyTests;
+			sourceTree = "<group>";
+		};
+		8555D2642A25F72500FBAF38 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -717,6 +720,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8555D2632A25EDCE00FBAF38 /* EpisodesRickAndMortyTests.swift in Sources */,
 				8555D25F2A24ECF400FBAF38 /* FavoritesRickAndMortyTest.swift in Sources */,
 				8555D2612A24EE3300FBAF38 /* LocationsRickAndMortyTests.swift in Sources */,
 				8555D2582A24E69B00FBAF38 /* SettingsRickAndMortyTests.swift in Sources */,
